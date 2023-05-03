@@ -1,60 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Itim&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
 
 * {
     box-sizing: border-box;
   }
   
+  
   body {
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif, system-ui, ;
+    font-family: 'Poppins';
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    gap: 0.5rem;
-    border-bottom: solid 1px #aaa;
-    background-color: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 69.27%, rgba(163, 159, 159, 0.1) 99.98%, rgba(136, 136, 136, 0.0921875) 99.99%), #FFFAEE;
-  }
-  
-  nav a {
-    display: inline-block;
-    min-width: 9rem;
-    padding: 0.5rem;
-    border-radius: 0.2rem;
-    border: solid 1px #aaa;
-    text-align: center;
-    text-decoration: none;
-    color: #555;
-  }
-  
-  nav a[aria-current='page'] {
-    color: #000;
-    background-color: #d4d4d4;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-  }
-  
+
   h1 {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
 
   .inicio
   {
-    border: 2px solid red;
-   
-    background-color: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 69.27%, rgba(163, 159, 159, 0.1) 99.98%, rgba(136, 136, 136, 0.0921875) 99.99%), #FFFAEE;
+    
   }
   
   .container {
@@ -62,33 +32,115 @@
     flex-direction: row;
     width: 100%;
     height: 90%;
-    border: solid 1px red;
+    
+  
   }
   
   .imageLeft {
     width: 40%;
     height: auto;
-    border: solid 1px;
+    
+    
   }
   
   .title {
     width: 60%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-size: 2em;
-    border: solid 1px;
+    font-size: 3em;
+   
+    background-color: #FFFAEE;
+    margin-top: 0;
   }
 
+  
   .icon {
     position: absolute;  
     top: 0;
     right: 0;
     margin-right: 5%;
     margin-top: 1%;
-    width: 125px;
-    height: 30px;
-    border: solid 1px;
+    width: calc(125px * 2);
+    height: calc(30px * 2);
+   
 
   }
   
+  #twoButtons
+  {
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 10%;
+  }
+
+  
+  #fazerDownload
+  {
+    background-color:#FFFAEE;
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.35em;
+    padding: 1% 5% 1% 5%;
+    font-family: 'Poppins';
+    cursor:pointer;
+   
+  }
+  #fazerDownload:hover
+  {
+    text-decoration: underline;
+  }
+
+
+  #saibaMais
+  {
+    background-color: #BD6B57;
+    color: #FFFAEE;
+    border: solid #BD6B57 ;
+    border-radius: 2px;
+    font-size: 0.35em;
+    padding: 1% 5% 1% 5%;
+    font-family: 'Poppins';
+    cursor:pointer;
+  }
+  #saibaMais:hover
+  {
+    background-color: #db927f;
+    border: solid  #db927f;
+    
+  }
+
+  #saboresConectam
+  {
+    width: 50%;
+    padding-bottom: 10px;
+   
+    
+  }
+
+  #textChanger
+  {
+    margin-top: 0;
+    font-family: 'Itim';
+    font-size: 2em;
+  
+    margin-bottom: 0;
+  }
+
+  #frontMessage
+  {
+   
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
