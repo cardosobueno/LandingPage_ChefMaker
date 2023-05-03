@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Itim&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
 
 * {
     box-sizing: border-box;
   }
+  
   
   body {
     margin: 0 auto;
@@ -17,7 +18,7 @@
 
   h1 {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
 
@@ -45,25 +46,26 @@
   
   .title {
     width: 60%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 2em;
+    font-size: 3em;
     border: solid 1px blue;
     background-color: #FFFAEE;
-    
+    margin-top: 0;
   }
 
+  
   .icon {
     position: absolute;  
     top: 0;
     right: 0;
     margin-right: 5%;
     margin-top: 1%;
-    width: 125px;
-    height: 30px;
-    border: solid 1px;
+    width: calc(125px * 2);
+    height: calc(30px * 2);
+    border: solid 1px black;
 
   }
   
@@ -108,5 +110,34 @@
   {
     background-color: #db927f;
     border: solid  #db927f;
+    
+  }
+
+  #saboresConectam
+  {
+    width: 50%;
+    padding-bottom: 10px;
+    border: solid 1px black;
+    
+  }
+
+  #textChanger
+  {
+    margin-top: 0;
+    font-family: 'Itim';
+    font-size: 2em;
+    border: solid 1px black;
+    margin-bottom: 0;
+  }
+
+  #frontMessage
+  {
+   
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
     
   }
