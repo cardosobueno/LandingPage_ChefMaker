@@ -6,13 +6,16 @@
 * {
     box-sizing: border-box;
   }
-  
+   html{
+ 
+   }
   
   body {
     margin: 0 auto;
     font-family: 'Poppins';
     color: black;
     background-color: rgb(255, 255, 255);
+  
   }
   
 
@@ -109,12 +112,7 @@
     font-family: 'Poppins';
     cursor:pointer;
   }
-  #saibaMais:hover
-  {
-    background-color: #db927f;
-    border: solid  #db927f;
-    
-  }
+  
 
   #saboresConectam
   {
@@ -144,3 +142,26 @@
     
     
   }
+
+  #H1pag2
+  {
+    padding: 2%;
+    font-weight: bold;
+   
+  }
+
+  #imageSecondPage{
+    padding-top: 2%;
+    
+    
+  }
+  #textPag2
+  {
+    
+    font-size: 1.75em;
+    align-items: center;
+    font-weight: lighter;
+    margin: 10%;
+  }
+
+ 
