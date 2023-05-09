@@ -112,7 +112,13 @@
     font-family: 'Poppins';
     cursor:pointer;
   }
-  
+  #saibaMais:hover
+  {
+    border: solid #c42a04 ;
+    background-color: #c42a04 ;
+    font-size: 0.36em;
+  }
+
 
   #saboresConectam
   {
@@ -151,8 +157,8 @@
   }
 
   #imageSecondPage{
-    padding-top: 2%;
-    
+    padding-top: 1%;
+   
     
   }
   #textPag2
@@ -164,4 +170,22 @@
     margin: 10%;
   }
 
+  #DoisCelulares{
+    max-width: 50%;
+  }
+
+  #EmBreve
+  {
+    margin-right: 15%;
+   
+    margin-top: 20%;
+    margin-bottom: 15%;
+    
+  }
+
+ #icons{
+  display: flex;
+  justify-content: space-around;
  
+  align-items: center;
+ }
