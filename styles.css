@@ -2,38 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Itim&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
-@media (max-width: 1084px) {
-  .title {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    font-size: 32em;
-    background-color: #FFFAEE;
-    margin-top: 0;
-    border: solid black;
-    
-  }
-  body{
-    background-color: rgb(192, 191, 191);
-  }
-  .imageLeft {
-    display: none;
-  }
-  #frontMessage
-  {
-   
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    
-    
-  }
-}
-
 * {
     box-sizing: border-box;
   }
