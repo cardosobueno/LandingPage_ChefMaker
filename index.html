@@ -12,16 +12,18 @@
 </head>
 
 <body>
-    <div class="content" style="background-color:#FFFAEE; padding-bottom: 7.5rem;">
-        <img class="logo" src="images/ChefMakerLogo.png">
-        <img id="sabores" src="images/SaboresQueConectam.png">
-        <h1 id="textChanger">PESSOAS</h1>
-        <button id="saibaMais">Saiba mais</button>
-        <button id="fazerDownload">Fazer download</button>
-
+    <div class="content" style="background-color:#FFFAEE; ">
+        <div id="splashScreen">
+            <img class="logo" src="images/ChefMakerLogo.png">
+            <img id="sabores" src="images/SaboresQueConectam.png">
+            <h1 id="textChanger">PESSOAS</h1>
+            <button id="saibaMais" onClick="document.getElementById('textoLindo').scrollIntoView({ behavior: 'smooth', block: 'center',
+            inline: 'center'})">Saiba mais</button>
+            <button id="fazerDownload" onClick="document.getElementById('emBreve').scrollIntoView({ behavior: 'smooth'})">Fazer download</button>
+        </div>
     </div>
     <section style="background-color: rgb(247, 67, 67); ">
-        <div class="custom-shape-divider-top-1684109243">
+        <div class="curva1">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
                 preserveAspectRatio="none">
                 <path
@@ -36,7 +38,7 @@
             <h1 id="experimente">EXPERIMENTE</h1>
             <h1 id="compartilhe">COMPARTILHE</h1>
             <img src="images/imagesSecondPageShadow.png">
-            <p><strong>Descubra</strong> uma nova maneira de se apaixonar pela culinária.
+            <p id="textoLindo"><strong>Descubra</strong> uma nova maneira de se apaixonar pela culinária.
                 <br>
                 <br>
                 <strong>Compartilhe</strong> suas <strong>receitas favoritas</strong>, encontre novas inspirações
@@ -90,7 +92,7 @@
 
         </div>
     </section>
-    
+
     <footer>
         <p>Nos siga no instagram!</p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"
@@ -100,8 +102,8 @@
         </svg>
 
 
-        
-        
+
+
 
     </footer>
 

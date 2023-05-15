@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Itim&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
+
 * {
     box-sizing: border-box;
 }
@@ -37,6 +38,13 @@ footer svg{
     overflow-x: hidden;
 
 }
+.content #splashScreen{
+    padding-bottom: 7.5rem;
+    display: flex;
+    border: solid #FFFAEE;
+    flex-direction: column;
+    align-items: center;
+}
 
 .content #sabores {
     width: 225px;
@@ -47,7 +55,7 @@ footer svg{
 .content h1 {
     margin: 0rem;
     font-family: 'Itim';
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -137,7 +145,8 @@ footer svg{
 }
 
 
-.custom-shape-divider-top-1684109243 {
+.curva1 {
+    margin-top: -2px;
     position: relative;
     top: 0;
     left: 0;
@@ -145,17 +154,21 @@ footer svg{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+   
     
 }
 
-.custom-shape-divider-top-1684109243 svg {
+.curva1 svg {
+    margin-top: -2px;
     position: relative;
     display: block;
     width: calc(300% + 1.3px);
     height: 164px;
+   
 }
 
-.custom-shape-divider-top-1684109243 .shape-fill {
+.curva1 .shape-fill {
+    margin-top: -2px;
     fill: #FFFAEE;
 }
 
@@ -181,4 +194,77 @@ footer svg{
 .custom-shape-divider-top-1684151871 .shape-fill {
     fill: #F74343;
     
+}
+
+
+
+@media (min-width: 845px) {
+    .content #sabores {
+        width: 22.5rem;
+        margin-top: 7.625rem;
+    
+    }
+    .content h1 {
+        margin: 0rem;
+        font-family: 'Itim';
+        font-size: 7.5rem;
+        margin-bottom: 1rem;
+    }
+    .content .logo {
+        position: absolute;
+        top: 0;
+        left: 0.25rem;
+        
+       
+    }
+    .content #splashScreen{
+        padding-bottom: 0rem;
+
+    }
+    .info p {
+        padding: 3.5rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 1.5rem;
+       
+    }
+    .info img {
+        width: 35rem;
+       
+    }
+    .content #emBreve h1{
+        text-align: center;
+        font-size: 3.5rem;
+        margin-top: 10rem;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .content #doisCelulares{
+        margin-top: 1rem;
+        width: 32rem;
+        
+    }
+    .curva1 {
+        margin-top: -1px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .curva1 svg {
+        margin-top: -1px;
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 67px;
+    }
+    
+    .curva1 .shape-fill {
+        margin-top: -1px;
+        fill: #FFFAEE;
+    }
 }
