@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Open+Sans:wght@300&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Itim&family=Open+Sans:wght@300&family=Poppins&display=swap');
 
-
 * {
     box-sizing: border-box;
   }
@@ -14,7 +13,8 @@
     margin: 0 auto;
     font-family: 'Poppins';
     color: black;
-    background-color: rgb(255, 255, 255);
+ 
+    
   
   }
   
@@ -80,6 +80,7 @@
     align-items: center;
     width: 40%;
     height: 10%;
+    margin-bottom: 0;
   }
 
   
@@ -161,6 +162,8 @@
    
     
   }
+
+ 
   #textPag2
   {
     
@@ -168,17 +171,20 @@
     align-items: center;
     font-weight: lighter;
     margin: 10%;
+    margin-top: 20%;
   }
 
   #DoisCelulares{
-    max-width: 50%;
+    max-width: 45%;
+    margin-left: 5rem;
+    overflow: hidden;
   }
 
   #EmBreve
   {
     margin-right: 15%;
    
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 15%;
     
   }
@@ -189,3 +195,35 @@
  
   align-items: center;
  }
+
+
+
+ #H1pag2center{
+  display: flex;
+  flex-direction: row;
+
+  padding: 0;
+  margin: 0;
+  margin-top: 3rem;
+  justify-content: center;
+ }
+
+ .custom-shape-divider-bottom-1684103113 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1684103113 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 167px;
+}
+
+.custom-shape-divider-bottom-1684103113 .shape-fill {
+  fill: #FF2929;
+}
